@@ -1,0 +1,227 @@
+/* ==========================================================
+   FINSURE ANALYTICS
+   PROFESSIONAL CREAM THEME
+   PHASE 11.1
+   ========================================================== */
+
+/* ==========================================================
+   GLOBAL BACKGROUND
+   ========================================================== */
+
+html,
+body,
+.stApp {
+    background-color: #F8F4EC;
+    color: #2E2A25;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ==========================================================
+   MAIN CONTENT AREA
+   ========================================================== */
+
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1400px;
+}
+
+/* ==========================================================
+   SIDEBAR
+   ========================================================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #EEE7D9;
+    border-right: 1px solid #D8CCB5;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #2E2A25;
+}
+
+/* ==========================================================
+   SIDEBAR BUTTONS
+   ========================================================== */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #D8CCB5;
+    background-color: #FFFDF8;
+    color: #2E2A25;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    border-color: #8B6B3D;
+    color: #8B6B3D;
+}
+
+/* ==========================================================
+   METRIC CARDS
+   ========================================================== */
+
+[data-testid="metric-container"] {
+    background: #FFFDF8;
+    border: 1px solid #D8CCB5;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+[data-testid="metric-container"] label {
+    color: #6B6259;
+}
+
+[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    color: #2E2A25;
+    font-weight: 700;
+}
+
+/* ==========================================================
+   CUSTOM CARD
+   ========================================================== */
+
+.fin-card {
+    background: #FFFDF8;
+    border: 1px solid #D8CCB5;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.fin-card h3 {
+    color: #2E2A25;
+    margin-top: 0;
+}
+
+.fin-card p {
+    color: #5E554C;
+    line-height: 1.8;
+}
+
+/* ==========================================================
+   INFO BOXES
+   ========================================================== */
+
+[data-testid="stAlert"] {
+    background-color: #FFFDF8;
+    border: 1px solid #D8CCB5;
+    border-radius: 14px;
+}
+
+/* ==========================================================
+   SUCCESS MESSAGE
+   ========================================================== */
+
+.stSuccess {
+    background-color: #EAF3E5 !important;
+    border: 1px solid #B9D7A8 !important;
+    border-radius: 12px !important;
+}
+
+/* ==========================================================
+   DATAFRAMES
+   ========================================================== */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #D8CCB5;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* ==========================================================
+   INPUT FIELDS
+   ========================================================== */
+
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 10px;
+}
+
+/* ==========================================================
+   HEADERS
+   ========================================================== */
+
+h1 {
+    color: #2E2A25;
+    font-weight: 700;
+}
+
+h2 {
+    color: #2E2A25;
+    font-weight: 700;
+}
+
+h3 {
+    color: #2E2A25;
+    font-weight: 600;
+}
+
+/* ==========================================================
+   DIVIDERS
+   ========================================================== */
+
+hr {
+    border-color: #D8CCB5;
+}
+
+/* ==========================================================
+   CAPTIONS
+   ========================================================== */
+
+.caption,
+small {
+    color: #7A7067;
+}
+
+/* ==========================================================
+   SCROLLBAR
+   ========================================================== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F3EEE4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C9B89B;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #B39A72;
+}
+
+/* ==========================================================
+   REMOVE STREAMLIT WHITE FEELING
+   ========================================================== */
+
+section.main {
+    background-color: #F8F4EC;
+}
+
+header[data-testid="stHeader"] {
+    background-color: #F8F4EC;
+}
+
+div[data-testid="stToolbar"] {
+    background-color: #F8F4EC;
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+footer {
+    visibility: hidden;
+}
+
+/* ==========================================================
+   END OF FILE
+   ========================================================== */
